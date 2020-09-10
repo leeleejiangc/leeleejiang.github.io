@@ -1,0 +1,112 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+div.main {
+    position: relative;
+    top: 50px;
+    border-style: solid;
+    height: 800px;
+    width: 900px;
+    border-width: 0px;
+    margin: 0 auto;
+}
+
+table {
+    width: 90%;
+    border-width: 0px;
+    margin: 0 auto:
+}
+
+th {
+    height: 50px;
+    width: 30%;
+    color: black;
+    font-family: avenir;
+}
+
+td {
+    height: 50px;
+    text-align: center;
+}
+
+img {
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    height="200"width="300";
+}
+
+h1 {
+    color: #afa11d;
+    font-family: courier;
+    font-weight: bolder;
+    text-align: center
+}
+
+h2 {
+    color: #242329;
+    font-family: avenir;
+}
+
+h3 {
+    color: #9183f2;
+    font-family: avenir;
+}
+
+h4 {
+    color: #242329;
+    font-family: avenir-light;
+}
+h5 {
+    font-family: avenir;
+    color: gray
+}
+
+p {
+    text-align: center;
+}
+
+.navbar {
+  width: auto;
+  background-color: #888;
+  overflow: auto;
+  float: right;
+}
+
+/* Navbar links */
+.navbar a {
+  font-family: avenir;
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: #5e5c6b;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: white;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #bdb3ff;
+}
+
+/* Current/active navbar link */
+.active {
+  color: white;
+  background-color: white;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.float-left {
+    width:auto;
+    float: left;
+}
